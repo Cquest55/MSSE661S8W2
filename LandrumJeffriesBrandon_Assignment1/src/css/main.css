@@ -1,0 +1,77 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  background-color: green;
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  background-color: white;
+  color: black;
+}
+.container{
+  display: flex;
+
+}
+#model{
+  background-color: green;
+  height: 160px;
+  width: 160px;
+  margin: 15px;
+  text-align: center;
+  align-items: center;
+}
+#make{
+  background-color: yellow;
+  height: 160px;
+  width: 160px;
+  margin: 15px;
+}
+#color{
+  background-color: pink;
+  height: 160px;
+  width: 160px;
+  margin: 15px;
+}
+
+
